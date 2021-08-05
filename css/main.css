@@ -343,7 +343,7 @@ a {
   height: 100%;
   top: 0;
   left: 0;
-  cursor: pointer; }
+  cursor: url("../img/png/player.png") 24 24, auto; }
   .game:hover .game__counter:after {
     -webkit-animation: timer_1 60s steps(60) forwards;
        -moz-animation: timer_1 60s steps(60) forwards;
