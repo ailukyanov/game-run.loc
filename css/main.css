@@ -751,7 +751,34 @@ a {
     color: red;
     text-indent: 0; } }
 
-@keyframes timer_1 {
+@-webkit-keyframes timer_2 {
+  0% {
+    text-indent: 0; }
+  50% {
+    color: yellow; }
+  100% {
+    color: red;
+    text-indent: -300ch; } }
+
+@-moz-keyframes timer_2 {
+  0% {
+    text-indent: 0; }
+  50% {
+    color: yellow; }
+  100% {
+    color: red;
+    text-indent: -300ch; } }
+
+@-o-keyframes timer_2 {
+  0% {
+    text-indent: 0; }
+  50% {
+    color: yellow; }
+  100% {
+    color: red;
+    text-indent: -300ch; } }
+
+@keyframes timer_2 {
   0% {
     text-indent: 0; }
   50% {
